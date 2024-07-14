@@ -102,7 +102,7 @@ if not st.session_state.get("chat_mode", False):
 
     # Main page content
     st.title("Intel Product Sentimental Analysis")
-    st.markdown("<div style='text-align: right; font-size: 20px;'>By N Palani Karthik</div></br>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: right; font-size: 20px;'>By N Palani Karthik</div></br></br>", unsafe_allow_html=True)
     st.markdown("### Sentiment Distribution used to train model")
     st.image("download.png", use_column_width=True) 
     st.markdown("### Review Sources Distribution ")
