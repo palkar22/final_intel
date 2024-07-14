@@ -108,6 +108,8 @@ if not st.session_state.get("chat_mode", False):
     st.markdown("### Model Evaluation Metirics\n")
     st.markdown("Accuracy: 0.9183\n")
     st.markdown("Precision: 0.9312\n")    
+    st.markdown("\nRecall: 0.9183\n")
+    st.markdown("F1 Score: 0.9226\n\n")
     #st.image("Screenshot 2024-07-14 131353.png", use_column_width=True)
     st.markdown("### Confusion matrix")
     st.image("confusion.png", use_column_width=True)
