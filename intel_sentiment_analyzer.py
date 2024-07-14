@@ -126,7 +126,7 @@ if not st.session_state.get("chat_mode", False):
 
     st.markdown("### Conclusions \n")
     st.markdown("""
-                (i)Majority of the user based reviews are positive (84.1%)\n
+                (i)Majority of the user based reviews are positive but negatives are present\n
                 (ii)The percentage of positive comments have increased as the genaration have also increased\n
                 (iii)The Postive and neutral comments are majorly present across all e-commerce websites """)
 else:
