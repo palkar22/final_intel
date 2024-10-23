@@ -91,11 +91,11 @@ st.markdown(
 st.markdown('<div class="fixed-buttons">', unsafe_allow_html=True)
 if st.button("Click here to go to Main Page", key='main_page'):
     st.session_state.chat_mode = False  # Ensure chat mode is set to False
-    st.experimental_rerun()
+    st.rerun()
 
 if st.button("Click here to go to Chat Page", key='chat_page'):
     st.session_state.chat_mode = True
-    st.experimental_rerun()
+    st.rerun()
 st.markdown('</div>', unsafe_allow_html=True)
 # Example content for the main page
 if not st.session_state.get("chat_mode", False):
